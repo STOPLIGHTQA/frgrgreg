@@ -223,3 +223,13 @@ components:
           $ref: '#/components/schemas/User'
           x-stoplight:
             id: rvlopo9lt9ple
+    bmbjk:
+      title: bmbjk
+      x-stoplight:
+        id: dzj4bzi5odtq2
+      type: object
+      properties:
+        id:
+          type: string
+          x-stoplight:
+            id: 5j4monxe7nhzl
