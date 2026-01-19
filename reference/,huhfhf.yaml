@@ -209,3 +209,17 @@ components:
         - emailVerified
       x-stoplight:
         id: 5403otwnie2z0
+    vfvfvf:
+      title: vfvfvf
+      x-stoplight:
+        id: a5kz1g2ca8qqc
+      type: object
+      properties:
+        id:
+          type: string
+          x-stoplight:
+            id: 1m1ire7lvmy2g
+        dfdfdf:
+          $ref: '#/components/schemas/User'
+          x-stoplight:
+            id: rvlopo9lt9ple
