@@ -198,7 +198,7 @@ components:
           x-stoplight:
             id: l4lb3agxz6l8m
         emailVerified:
-          type: boolean
+          $ref: '#/components/schemas/vfvfvf'
           description: Set to true if the user's email has been verified.
           x-stoplight:
             id: suk9wveasqzrc
