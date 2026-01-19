@@ -156,7 +156,6 @@ components:
     User:
       title: User
       type: object
-      description: ''
       examples:
         - id: 142
           firstName: Alice
@@ -165,6 +164,14 @@ components:
           dateOfBirth: '1997-10-31'
           emailVerified: true
           signUpDate: '2019-08-24'
+      x-stoplight:
+        id: 5403otwnie2z0
+      required:
+        - id
+        - firstName
+        - lastName
+        - email
+        - emailVerified
       properties:
         id:
           type: integer
@@ -201,14 +208,10 @@ components:
           description: The date that the user was created.
           x-stoplight:
             id: 8scfordloqe0x
-      required:
-        - id
-        - firstName
-        - lastName
-        - email
-        - emailVerified
-      x-stoplight:
-        id: 5403otwnie2z0
+        refer1:
+          $ref: '#/components/schemas/bmbjk'
+          x-stoplight:
+            id: gwmrn168ly1x3
     vfvfvf:
       title: vfvfvf
       x-stoplight:
@@ -233,3 +236,7 @@ components:
           type: string
           x-stoplight:
             id: 5j4monxe7nhzl
+        refer342:
+          $ref: '#/components/schemas/User'
+          x-stoplight:
+            id: nbst9r1hb003k
