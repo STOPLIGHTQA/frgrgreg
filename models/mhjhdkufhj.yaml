@@ -15,3 +15,7 @@ properties:
     type: string
     x-stoplight:
       id: 24vsmaujrh5fj
+  nvhvjhbc:
+    $ref: ./hgfjgrfkuhwif.json
+    x-stoplight:
+      id: kcq3yymqf7cvm
